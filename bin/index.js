@@ -52,8 +52,8 @@ if(language == null){
 }
 
 translate(sentence, {to: language}).then(res => {
-    
-    console.log(boxen(chalk.green("\n" + res.text + "\n"), {padding: 1}));
+
+        console.log("\n" + boxen(chalk.green("\n" + res.text + "\n"), {padding: 1, borderColor: 'green', dimBorder: true}) + "\n");
 
 }).catch(err => {
 	    console.error(err);
