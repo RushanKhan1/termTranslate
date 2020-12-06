@@ -1,0 +1,21 @@
+{
+  "name": "termtranslate",
+  "version": "1.0.0",
+  "description": "A CLI to translate between languages in the terminal.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rushan Khan",
+  "license": "ISC",
+  "keywords": [],
+  "bin": {
+    "translate": "./bin/index.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^4.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "yargs": "^16.1.1"
+  }
+}
