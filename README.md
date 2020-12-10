@@ -8,4 +8,8 @@
    <img  src="https://img.shields.io/badge/npm-v6.14.8-blue">
   <img  src="https://img.shields.io/badge/node-v12.18.2-yellow">
  </p>
+ <br>
 <p align="center">A CLI to translate between languages in the terminal.</p>
+<br>
+
+## Usage
