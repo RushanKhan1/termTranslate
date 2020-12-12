@@ -12,4 +12,9 @@
 <p align="center">A CLI to translate between languages in the terminal.</p>
 <br>
 
+---
+<p align="center">
+<img src="images/demo.gif" alt="demonstration" height="400" width="600" >  
+</p>
+
 ## Usage
