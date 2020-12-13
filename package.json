@@ -10,7 +10,7 @@
   "license": "ISC",
   "keywords": [],
   "bin": {
-    "translate": "./bin/index.js"
+    "tran": "./bin/index.js"
   },
   "dependencies": {
     "@vitalets/google-translate-api": "^4.0.0",
