@@ -31,7 +31,7 @@
 2. Run ```npm install``` to install the dependencies.
 3. Run ```npm install -g .``` to install the CLI. <br>
 
-> :warning: **This might cause an error** which can resolved easily using ```sudo``` with the command **however**, using ```sudo``` with ```npm``` is **not recommended** because it might cause permission issues later. So instead put this in your .bashrc file
+> :warning: **This might cause an error** which can be resolved easily using ```sudo``` with the command **however**, using ```sudo``` with ```npm``` is **not recommended** because it might cause permission issues later. So instead put this in your .bashrc file:
 ```
 npm set prefix ~/.npm
 PATH="$HOME/.npm/bin:$PATH"
