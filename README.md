@@ -21,8 +21,8 @@
 
 ## Usage
 
-```~$ tran --help
-
+```
+~$ tran --help
 Usage: translate <lang_name> sentence to be translated
 
 Options:
