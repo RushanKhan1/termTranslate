@@ -4,7 +4,7 @@ const chalk = require('chalk')
 const boxen = require('boxen')
 const utils = require('./utils.js')
 const translate = require('@vitalets/google-translate-api');
-const usage = chalk.keyword('violet')("\nUsage: translate <lang_name> sentence to be translated");
+const usage = chalk.keyword('violet')("\nUsage: tran <lang_name> sentence to be translated");
 
 
 const yargs = require("yargs");
