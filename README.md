@@ -23,7 +23,7 @@
 
 ```
 ~$ tran --help
-Usage: translate <lang_name> sentence to be translated
+Usage: tran <lang_name> sentence to be translated
 
 Options:
         --version             Show version number.              [boolean]
