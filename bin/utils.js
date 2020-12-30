@@ -1,6 +1,6 @@
 const chalk = require('chalk')
 const usage = chalk.hex('#83aaff')("\nUsage: tran <lang_name> sentence to be translated");
-module.exports = { parseLanguage: parseLanguage, showAll: showAll, showHelp: showHelp};
+module.exports = { parseLanguage: parseLanguage, showAll: showAll, showHelp: showHelp, parseSentence: parseSentence};
 
 
 function parseLanguage (language) {
@@ -30,6 +30,14 @@ function showHelp() {
     console.log('\t--version\t      ' + 'Show version number.' + '\t\t' + '[boolean]\r')
     console.log('    -l, --languages\t' + '      ' + 'List all languages.' + '\t\t' + '[boolean]\r')
     console.log('\t--help\t\t      ' + 'Show help.' + '\t\t\t' + '[boolean]\n')
+}
+
+function parseSentence(words) {
+    var sentence = "";
+    for(var i = 1; i < words.length; i++) {
+	sentence = sentence + words[i] + " ";
+    }
+    return sentence;
 }
 
 
