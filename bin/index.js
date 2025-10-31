@@ -51,7 +51,7 @@ if(language == null){
 (async () => {
     try {
         // Dynamic import the ESM package
-        const { translate } = await import('@vitalets/google-translate-api');
+        const { default: translate } = await import('@vitalets/google-translate-api');
         
         const res = await translate(sentence, { to: language });
         console.log("\n" + boxen(chalk.green("\n" + res.text + "\n"), {padding: 1, borderColor: 'green', dimBorder: true}) + "\n");
